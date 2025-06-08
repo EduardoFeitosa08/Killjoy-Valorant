@@ -12,32 +12,81 @@
     <title>Valorant</title>
 </head>
 <body class="p-0 m-0 box-border">
-    <header class="flex bg-red-500 items-center justify-evenly pr-50">
+    <header class="flex bg-red-500 items-center justify-evenly pr-50 md:justify-between md:pl-[100px]">
         <div class="flex pl-8 pt-5 pb-5 gap-4">
-            <img src="./img/logo-riot.png" alt="">
+            <img class="md:w-[165px] md:h-[55px]" src="./img/logo-riot.png" alt="">
             <img class="h-[62px]" src="./img/Vector-1.png" alt="">
             <img src="./img/logo-valorant.png" alt="">
         </div>
-        <menu class="flex gap-5 font-bold pl-18">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">CHAMPION</a></li>
-            <li><a href="#">DISCOVER</a></li>
-            <li><a href="#">PATCH NOTES</a></li>
-            <li><a href="#">E-SPORTS</a></li>
-            <li><a href="#">SHOP</a></li>
-            <li><a href="#">SUPORT</a></li>
+        <menu class="flex gap-5 font-bold pl-18 md:pl-0">
+            <li class="hover:text-white"><a href="#">GAME</a></li>
+            <li class="hover:text-white"><a href="#">CHAMPION</a></li>
+            <li class="hover:text-white"><a href="#">DISCOVER</a></li>
+            <li class="hover:text-white lg:hidden"><a href="#">PATCH NOTES</a></li>
+            <li class="hover:text-white lg:hidden"><a href="#">E-SPORTS</a></li>
+            <li class="hover:text-white"><a href="#">SHOP</a></li>
+            <li class="hover:text-white"><a href="#">SUPORT</a></li>
         </menu>
+        <img class="hidden md:block md:w-[40px]" src="./img/pesquisa.png" alt="">
+        <img class="hidden" src="./img/Menu.png" alt="">
     </header>
-    <main class=" flex h-svh bg-[url('./img/image-5.png')] bg-center bg-sky-900/50">
-        <section class="flex flex-col pt-[30px]">
-            <div class="flex items-end pl-[64px]">
+    <main class=" flex grow h-[100%] bg-[url('./img/image-5.png')] bg-left bg-sky-900 pl-[20px] pr-[40px] justify-between">
+        <section class="flex flex-col">
+            <div class="flex items-end">
                 <h2 class="text-red-600 text-[150px]">KILLJOY</h2>
                 <h3 class="text-white text-[28px] absolute pl-[430px] pb-[35px] ">SENTINEL</h3>
             </div>
-            <div class="text-white pl-[64px] w-[457px]">
+            <div class=" flex flex-col gap-[10px] text-white w-[457px]">
                 <h3 class="text-[28px]">BIO...</h3>
                 <p>Killjoy, uma alemã genial, defende o campo de batalha facilmente usando seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs dão conta do recado.</p>
                 <p>Killjoy, a German genius, defends the field battle easily using your arsenal of inventions. If the damage caused by your Equipment doesn't kill enemies, negative effects of your dear robots errand account.</p>
+            </div>
+            <section class="flex items-end gap-[10px] relative top-[40px]">
+                <nav class="bg-white flex items-center gap-[20px] w-[265px] hover:border-3 hover:border-white">
+                    <img class="h-[80px] w-[85px]" src="./img/viper.png" alt="Viper">
+                    <div class="pr-[10px] pt-[8px] pb-[9px]">
+                        <h3 class="font-bold text-[10px]">VALORANT PATCH NOTES <span class="text-red-600 font-bold">3.03</span></h3>
+                        <p class="w-[125px] text-[10px]">Hey! Let’s start with a quick note on Yoru from our Character Producer, John Goscicki</p>
+                        <ul class="flex justify-evenly">
+                            <li><img src="./img/iconmonstr-reddit-1.png" alt="Logo Reddit"></li>
+                            <li><img src="./img/Vector.png" alt=""></li>
+                            <a class="font-bold text-[10px]" href="#">SEE MORE <span class="text-red-600 font-bold">+</span></a>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="bg-white flex items-center gap-[20px] w-[265px] hover:border-3 hover:border-white">
+                    <img class="h-[80px] w-[85px]" src="./img/raze.png" alt="Raze">
+                    <div class="pr-[10px] pt-[8px] pb-[9px]">
+                        <h3 class="font-bold text-[10px]">VALORANT PATCH NOTES <span class="text-red-600 font-bold">3.02</span></h3>
+                        <p class="w-[125px] text-[10px]">More bug fixes in this patch while we continue to evaluate those large Episode 3</p>
+                        <ul class="flex justify-evenly">
+                            <li><img src="./img/iconmonstr-reddit-1.png" alt="Logo Reddit"></li>
+                            <li><img src="./img/Vector.png" alt=""></li>
+                            <a class="font-bold text-[10px]" href="#">SEE MORE <span class="text-red-600 font-bold">+</span></a>
+                        </ul>
+                    </div>
+                </nav>
+                <nav class="bg-white flex items-center gap-[20px] w-[265px] hover:border-3 hover:border-white">
+                    <img class="h-[80px] w-[85px]" src="./img/kay.png" alt="Kay">
+                    <div class="pr-[10px] pt-[8px] pb-[9px]">
+                        <h3 class="font-bold text-[10px]">VALORANT PATCH NOTES <span class="text-red-600 font-bold">3.01</span></h3>
+                        <p class="w-[115px] text-[10px]">Patch 3.0 was like an over-sized meal, where now we sit and let the food settle.</p>
+                        <ul class="flex justify-evenly">
+                            <li><img src="./img/iconmonstr-reddit-1.png" alt="Logo Reddit"></li>
+                            <li><img src="./img/Vector.png" alt=""></li>
+                            <a class="font-bold text-[10px]" href="#">SEE MORE <span class="text-red-600 font-bold">+</span></a>
+                        </ul>
+                    </div>
+                </nav>
+            </section>
+        </section>
+        <section class="flex items-center">
+            <div class="flex items-center gap-[30px] relative right-[50px]">
+                <button class="bg-red-500 h-[55px] w-[265px] text-white text-bold text-[20px] relative right-[80px] font-bold hover:bg-red-700 hover:border-2 hover:border-white">JOIN NOW</button>
+                <div class="flex items-center">
+                    <img class="h-[700px] w-[648px]" src="./img/koljoy-1.png" alt="Killjoy">
+                    <img class="h-[574px]" src="./img/logo-1.png" alt="Logo Valorant">
+                </div>
             </div>
         </section>
     </main>
