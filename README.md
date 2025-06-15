@@ -17,5 +17,7 @@ Além disso o website é responsivo, pensando não só para o usuario que usa um
 * Tailwind CSS
 * Git
 
+[Figma](https://www.figma.com/design/3WFGf8bwHHOOcZTyibbXVp/SAS-Valorant?node-id=0-1&t=3XFJVzxYSOLlDwGJ-1)
+
 ## Autor
 [Eduardo Feitosa](https://www.linkedin.com/in/eduardo-batista-ab0910366/)
